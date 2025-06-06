@@ -2,27 +2,30 @@
 
 ![Keylogger](https://t3.ftcdn.net/jpg/10/20/25/22/360_F_1020252214_jlf1xkZ2ZH75vSWwAFINeuU6iT4sVUJ0.jpg)
 
-**Keylogger** is a Python-based project designed to capture and log keystrokes. It demonstrates how key-logging can be used for various purposes, such as monitoring typing activity for research, troubleshooting keyboard issues, or learning how keyloggers work for cybersecurity education.
+**Keylogger** is a Python-based personal project developed by **Shaurya Singh**, designed to capture and log keystrokes. This project demonstrates how keylogging works and is intended solely for educational and research purposes.
 
-⚠️ **Note**: This project is for **educational purposes only**. Please use responsibly and only on systems you have permission to monitor.
+⚠️ **Note**: Please use responsibly and only on systems you have explicit permission to monitor.
 
 ---
 
 ## 🚀 Features
 
-- **Capture Keystrokes**: Records every keystroke made on the keyboard.
-- **Logs to File**: Saves keystrokes into a log file for later analysis.
-- **Hidden Execution**: Runs in the background without user interference.
-- **Modular Design**: Built with functions that can be easily customized or extended.
+- **Capture Keystrokes**: Logs all keyboard inputs.
+- **Logs to File**: Saves all recorded keystrokes in a local file.
+- **Hidden Execution**: Operates silently in the background.
+- **Modular Design**: Easily customizable Python functions.
 
 ---
 
 ## 📦 Project Structure
 
-The project contains the following main files:
+```bash
+keylogger/
+│
+├── keylogger.py         # Main keylogger script
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 
-- **`keylogger.py`** - The main script that initiates the keylogger.
-- **`requirements.txt`** - Lists all the Python libraries needed for this project.
 
 ---
 
@@ -107,9 +110,6 @@ Once you've set up the environment, you're ready to run the keylogger.
 
 ## 🧑‍💻 Contributing
 - Contributions are welcome! Feel free to open issues or submit pull requests to improve the project. Always ensure compliance with ethical guidelines and project goals.
-
-## 📄 License
-- This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## 🙋‍♂️ Questions?
 - If you have any questions or need clarification, feel free to reach out via the GitHub Issues section.
